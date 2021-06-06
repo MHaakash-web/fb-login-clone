@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  --fb-blue: #1877f2;
+  --fb-green: #42b72a;
+}
+
+@media (max-width: 450px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+.btn-blue {
+  background-color: var(--fb-blue);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.btn-green {
+  background-color: var(--fb-green);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.btn-green:hover,
+.btn-blue:hover {
+  filter: saturate(1.1) !important;
+}
+
+.mx-auto {
+  margin: 0px auto;
+}
+
+*:focus {
+  outline: 0px;
+  box-shadow: none !important;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f2f5;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: white;
+}
+
+/* left side of the form */
+
+.logo-section .fb-logo {
+  height: 90px;
+  margin: -28px;
+}
+
+.logo-section .logo-text {
+  font-size: 1.1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+/* reg body css */
+.reg-body,
+.login-body {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.disclaimer-text {
+  font-size: 0.7rem;
+  text-align: justify;
+}
+
+.sign-up-btn a {
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+footer a:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
